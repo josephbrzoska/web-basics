@@ -1,0 +1,67 @@
+body{
+	width:60%;
+	height:3460px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url("metal.jpg");
+	color:white;
+	font-family:Verdana;
+}
+h1{
+	color:black;
+	font-size:40px;
+	text-align:center;
+	background-color:gray;
+}
+h2{
+	color:gray;
+	font-size:20px;
+	text-align:center;
+	background-color:black;
+}
+tr,td{
+	border:5px solid black;
+}
+blockquote{
+	float:right;
+	text-align:left;
+	color:lime;
+}
+h3:hover{
+	color:lime;
+}
+.pic{
+	text-align:left;
+}
+.top{
+	box-shadow: 0px 0px 40px white;
+	font-size:60px;
+	text-align:center;
+	background-color:gray;
+	border: 5px solid black;
+	-webkit-transition: height 2s;
+    transition: height 2s;
+}
+.top:hover{
+	height:250px;
+	background-color:navy;
+}
+.left{
+	height:50%;
+	float:left;
+	background-color:black;
+	text-align:center;
+	padding:10px;
+	width:20%;
+	border:5px solid white;
+}
+.right{
+	float:right;
+	background-color:#0C0C0B;
+	padding:10px;
+	width:70%;
+	border:5px solid white;
+}
+li:hover{
+	background-color:lime;
+}
