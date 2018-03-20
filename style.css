@@ -40,14 +40,14 @@ h3:hover{
 	background-color:gray;
 	border: 5px solid black;
 	-webkit-transition: height 2s;
-    transition: height 2s;
+    	transition: height 2s;
 }
 .top:hover{
 	height:250px;
 	background-color:navy;
 }
 .left{
-	height:50%;
+	height:100%;
 	float:left;
 	background-color:black;
 	text-align:center;
